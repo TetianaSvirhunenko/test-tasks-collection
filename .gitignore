@@ -1,0 +1,67 @@
+# ===========================
+#  PYTHON / DATA ANALYTICS
+# ===========================
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+.env/
+.env
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# VS Code / JetBrains
+.vscode/
+.idea/
+
+# Logs / temp files
+*.log
+*.tmp
+*.bak
+
+# OS system files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ===========================
+#  DATA FILES
+# ===========================
+# Ignore large raw or temporary data
+*.twbx
+*.hyper
+*.csv
+*.xlsx
+*.xls
+*.parquet
+*.pkl
+*.zip
+*.gz
+
+# ===========================
+#  NOTEBOOK / OUTPUTS
+# ===========================
+# Ignore automatically generated notebooks/outputs
+*/.ipynb_checkpoints/
+*.nbconvert.ipynb
+
+# ===========================
+#  CACHE / TEMP
+# ===========================
+*.cache/
+__pycache__/
+*.egg-info/
+*.spec
+build/
+dist/
+
+# Ignore folders
+Genome/dataset/
+Uklon/

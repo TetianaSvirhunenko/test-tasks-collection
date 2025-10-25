@@ -1,0 +1,397 @@
+{
+    "fields": [
+        {
+            "metadata": {},
+            "name": "id",
+            "nullable": true,
+            "type": "integer"
+        },
+        {
+            "metadata": {},
+            "name": "firstName",
+            "nullable": true,
+            "type": "string"
+        },
+        {
+            "metadata": {},
+            "name": "lastName",
+            "nullable": true,
+            "type": "string"
+        },
+        {
+            "metadata": {},
+            "name": "maidenName",
+            "nullable": true,
+            "type": "string"
+        },
+        {
+            "metadata": {},
+            "name": "age",
+            "nullable": true,
+            "type": "integer"
+        },
+        {
+            "metadata": {},
+            "name": "gender",
+            "nullable": true,
+            "type": "string"
+        },
+        {
+            "metadata": {},
+            "name": "email",
+            "nullable": true,
+            "type": "string"
+        },
+        {
+            "metadata": {},
+            "name": "phone",
+            "nullable": true,
+            "type": "string"
+        },
+        {
+            "metadata": {},
+            "name": "username",
+            "nullable": true,
+            "type": "string"
+        },
+        {
+            "metadata": {},
+            "name": "password",
+            "nullable": true,
+            "type": "string"
+        },
+        {
+            "metadata": {},
+            "name": "birthDate",
+            "nullable": true,
+            "type": "string"
+        },
+        {
+            "metadata": {},
+            "name": "image",
+            "nullable": true,
+            "type": "string"
+        },
+        {
+            "metadata": {},
+            "name": "bloodGroup",
+            "nullable": true,
+            "type": "string"
+        },
+        {
+            "metadata": {},
+            "name": "height",
+            "nullable": true,
+            "type": "string"
+        },
+        {
+            "metadata": {},
+            "name": "weight",
+            "nullable": true,
+            "type": "string"
+        },
+        {
+            "metadata": {},
+            "name": "eyeColor",
+            "nullable": true,
+            "type": "string"
+        },
+        {
+            "metadata": {},
+            "name": "hair",
+            "nullable": true,
+            "type": {
+                "fields": [
+                    {
+                        "metadata": {},
+                        "name": "color",
+                        "nullable": true,
+                        "type": "string"
+                    },
+                    {
+                        "metadata": {},
+                        "name": "type",
+                        "nullable": true,
+                        "type": "string"
+                    }
+                ],
+                "type": "struct"
+            }
+        },
+        {
+            "metadata": {},
+            "name": "ip",
+            "nullable": true,
+            "type": "string"
+        },
+        {
+            "metadata": {},
+            "name": "address",
+            "nullable": true,
+            "type": {
+                "fields": [
+                    {
+                        "metadata": {},
+                        "name": "address",
+                        "nullable": true,
+                        "type": "string"
+                    },
+                    {
+                        "metadata": {},
+                        "name": "city",
+                        "nullable": true,
+                        "type": "string"
+                    },
+                    {
+                        "metadata": {},
+                        "name": "state",
+                        "nullable": true,
+                        "type": "string"
+                    },
+                    {
+                        "metadata": {},
+                        "name": "stateCode",
+                        "nullable": true,
+                        "type": "string"
+                    },
+                    {
+                        "metadata": {},
+                        "name": "postalCode",
+                        "nullable": true,
+                        "type": "string"
+                    },
+                    {
+                        "metadata": {},
+                        "name": "coordinates",
+                        "nullable": true,
+                        "type": {
+                            "fields": [
+                                {
+                                    "metadata": {},
+                                    "name": "lat",
+                                    "nullable": true,
+                                    "type": "double"
+                                },
+                                {
+                                    "metadata": {},
+                                    "name": "lng",
+                                    "nullable": true,
+                                    "type": "double"
+                                }
+                            ],
+                            "type": "struct"
+                        }
+                    },
+                    {
+                        "metadata": {},
+                        "name": "country",
+                        "nullable": true,
+                        "type": "string"
+                    }
+                ],
+                "type": "struct"
+            }
+        },
+        {
+            "metadata": {},
+            "name": "macAddress",
+            "nullable": true,
+            "type": "string"
+        },
+        {
+            "metadata": {},
+            "name": "university",
+            "nullable": true,
+            "type": "string"
+        },
+        {
+            "metadata": {},
+            "name": "bank",
+            "nullable": true,
+            "type": {
+                "fields": [
+                    {
+                        "metadata": {},
+                        "name": "cardExpire",
+                        "nullable": true,
+                        "type": "string"
+                    },
+                    {
+                        "metadata": {},
+                        "name": "cardNumber",
+                        "nullable": true,
+                        "type": "string"
+                    },
+                    {
+                        "metadata": {},
+                        "name": "cardType",
+                        "nullable": true,
+                        "type": "string"
+                    },
+                    {
+                        "metadata": {},
+                        "name": "currency",
+                        "nullable": true,
+                        "type": "string"
+                    },
+                    {
+                        "metadata": {},
+                        "name": "iban",
+                        "nullable": true,
+                        "type": "string"
+                    }
+                ],
+                "type": "struct"
+            }
+        },
+        {
+            "metadata": {},
+            "name": "company",
+            "nullable": true,
+            "type": {
+                "fields": [
+                    {
+                        "metadata": {},
+                        "name": "department",
+                        "nullable": true,
+                        "type": "string"
+                    },
+                    {
+                        "metadata": {},
+                        "name": "name",
+                        "nullable": true,
+                        "type": "string"
+                    },
+                    {
+                        "metadata": {},
+                        "name": "title",
+                        "nullable": true,
+                        "type": "string"
+                    },
+                    {
+                        "metadata": {},
+                        "name": "address",
+                        "nullable": true,
+                        "type": {
+                            "fields": [
+                                {
+                                    "metadata": {},
+                                    "name": "address",
+                                    "nullable": true,
+                                    "type": "string"
+                                },
+                                {
+                                    "metadata": {},
+                                    "name": "city",
+                                    "nullable": true,
+                                    "type": "string"
+                                },
+                                {
+                                    "metadata": {},
+                                    "name": "state",
+                                    "nullable": true,
+                                    "type": "string"
+                                },
+                                {
+                                    "metadata": {},
+                                    "name": "stateCode",
+                                    "nullable": true,
+                                    "type": "string"
+                                },
+                                {
+                                    "metadata": {},
+                                    "name": "postalCode",
+                                    "nullable": true,
+                                    "type": "string"
+                                },
+                                {
+                                    "metadata": {},
+                                    "name": "coordinates",
+                                    "nullable": true,
+                                    "type": {
+                                        "fields": [
+                                            {
+                                                "metadata": {},
+                                                "name": "lat",
+                                                "nullable": true,
+                                                "type": "double"
+                                            },
+                                            {
+                                                "metadata": {},
+                                                "name": "lng",
+                                                "nullable": true,
+                                                "type": "double"
+                                            }
+                                        ],
+                                        "type": "struct"
+                                    }
+                                },
+                                {
+                                    "metadata": {},
+                                    "name": "country",
+                                    "nullable": true,
+                                    "type": "string"
+                                }
+                            ],
+                            "type": "struct"
+                        }
+                    }
+                ],
+                "type": "struct"
+            }
+        },
+        {
+            "metadata": {},
+            "name": "ein",
+            "nullable": true,
+            "type": "string"
+        },
+        {
+            "metadata": {},
+            "name": "ssn",
+            "nullable": true,
+            "type": "string"
+        },
+        {
+            "metadata": {},
+            "name": "userAgent",
+            "nullable": true,
+            "type": "string"
+        },
+        {
+            "metadata": {},
+            "name": "crypto",
+            "nullable": true,
+            "type": {
+                "fields": [
+                    {
+                        "metadata": {},
+                        "name": "coin",
+                        "nullable": true,
+                        "type": "string"
+                    },
+                    {
+                        "metadata": {},
+                        "name": "wallet",
+                        "nullable": true,
+                        "type": "string"
+                    },
+                    {
+                        "metadata": {},
+                        "name": "network",
+                        "nullable": true,
+                        "type": "string"
+                    }
+                ],
+                "type": "struct"
+            }
+        },
+        {
+            "metadata": {},
+            "name": "role",
+            "nullable": true,
+            "type": "string"
+        }
+    ],
+    "type": "struct"
+}
