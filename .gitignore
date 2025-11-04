@@ -63,5 +63,4 @@ build/
 dist/
 
 # Ignore folders
-Genome/dataset/
-Uklon/
+test_task_4/dataset/
